@@ -1,0 +1,1 @@
+{ "name": "@accounting/server", "version": "0.0.1", "private": true, "scripts": { "dev": "echo \"Server development not implemented yet\"", "build": "echo \"Server build not implemented yet\"", "start": "echo \"Server start not implemented yet\"" } }
