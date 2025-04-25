@@ -1,0 +1,57 @@
+[
+  {
+    "id": "tx1",
+    "type": "expense",
+    "amount": 45.5,
+    "date": "2023-06-15T12:30:00.000Z",
+    "description": "午餐",
+    "categoryId": "cat1",
+    "tags": ["tag1"],
+    "createdAt": "2023-06-15T12:30:00.000Z",
+    "updatedAt": "2023-06-15T12:30:00.000Z"
+  },
+  {
+    "id": "tx2",
+    "type": "expense",
+    "amount": 25.0,
+    "date": "2023-06-15T18:00:00.000Z",
+    "description": "打车",
+    "categoryId": "cat2",
+    "tags": ["tag1"],
+    "createdAt": "2023-06-15T18:00:00.000Z",
+    "updatedAt": "2023-06-15T18:00:00.000Z"
+  },
+  {
+    "id": "tx3",
+    "type": "expense",
+    "amount": 200.0,
+    "date": "2023-06-16T14:00:00.000Z",
+    "description": "购买衣物",
+    "categoryId": "cat3",
+    "tags": ["tag3"],
+    "createdAt": "2023-06-16T14:00:00.000Z",
+    "updatedAt": "2023-06-16T14:00:00.000Z"
+  },
+  {
+    "id": "tx4",
+    "type": "income",
+    "amount": 5000.0,
+    "date": "2023-06-10T09:00:00.000Z",
+    "description": "月薪",
+    "categoryId": "cat4",
+    "tags": ["tag2"],
+    "createdAt": "2023-06-10T09:00:00.000Z",
+    "updatedAt": "2023-06-10T09:00:00.000Z"
+  },
+  {
+    "id": "tx5",
+    "type": "income",
+    "amount": 500.0,
+    "date": "2023-06-20T20:00:00.000Z",
+    "description": "兼职收入",
+    "categoryId": "cat5",
+    "tags": ["tag3"],
+    "createdAt": "2023-06-20T20:00:00.000Z",
+    "updatedAt": "2023-06-20T20:00:00.000Z"
+  }
+] 

@@ -14,4 +14,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // 配置开发服务器
+  server: {
+    fs: {
+      // 允许服务器访问项目以外的文件
+      allow: ['..'],
+    },
+  },
 })

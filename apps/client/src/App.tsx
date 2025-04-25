@@ -1,30 +1,19 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Dashboard from './pages/dashboard';
-import Transactions from './pages/transactions';
-import Categories from './pages/categories';
-import Reports from './pages/reports';
-import Layout from './components/Layout';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Layout from "./components/Layout";
+import TransactionsPage from "./pages/TransactionsPage";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Layout />,
     children: [
       {
-        index: true,
-        element: <Dashboard />,
+        path: "/",
+        element: <TransactionsPage />,
       },
       {
-        path: 'transactions',
-        element: <Transactions />,
-      },
-      {
-        path: 'categories',
-        element: <Categories />,
-      },
-      {
-        path: 'reports',
-        element: <Reports />,
+        path: "/transactions",
+        element: <TransactionsPage />,
       },
     ],
   },
